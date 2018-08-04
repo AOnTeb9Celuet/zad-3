@@ -1,0 +1,21 @@
+.sidebar {
+    position: fixed;
+    height: 100vh;
+}
+.bg {
+    background-image: url(../img/forest.jpg)
+}
+
+.nav-link{
+    font-size: 15px;
+    font-weight: 700;
+    color: #111111;
+}
+
+.fa-chevron-down {
+    font-size: 9px;
+    vertical-align: 2px;
+}
+.fa-bars {
+    font-size: 20px;
+}
