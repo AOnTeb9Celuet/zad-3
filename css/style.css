@@ -260,6 +260,7 @@ body {
 .footer-1 {
     padding-top: 50px!important;
     font-weight: 500;
+    
 }
 
 .footer {
@@ -287,6 +288,9 @@ body {
 }
 
 .footer-2 {
+    border-color: #616161!important;
+}
+.footer-2 p{
     color: white;
     padding-left: 120px;
     padding-top: 50px;
@@ -312,9 +316,24 @@ body {
 }
 
 .footer-3 {
+    border-color: #616161!important;
+}
+.footer-3 p{
     color: white;
     padding-left: 120px;
     padding-top: 50px;
     font-size: 20px;
     font-weight: 500;
+}
+
+.footer-logo {
+    width: 100px;
+    padding-top: 20px;
+}
+
+.footer-text {
+    text-align: center;
+    color: #616161;
+    font-size: 15px;
+    padding-top: 40px;
 }
