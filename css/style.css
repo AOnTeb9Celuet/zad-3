@@ -35,6 +35,10 @@ body {
     padding-right: 80px!important;
 }
 
+.padding-x-v {
+    padding: 0 130px 0 57px;
+}
+
 .fa-chevron-down {
     font-size: 9px;
     vertical-align: 2px;
@@ -106,7 +110,10 @@ body {
 }
 
 .text-cr {
+    display: inline-block;
     cursor: pointer;
+    border-bottom: 2px solid #919191;
+    padding-bottom: 2px;
 }
 
 .img-papich {
@@ -186,13 +193,17 @@ body {
     padding-left: 0px!important;
 }
 
+.port-under-img {
+    padding: 10px 0 0 20px;
+}
+
 .port-text {
-    font-size: 15px;
+    font-size: 13px;
     color: #7F7C74;
     background: white;
-    padding-bottom: 50px;
-    width: 340px;
     margin-left: 5px;
+    padding: 0 0 50px;
+    line-height: 25px;
 }
 
 .port-text span {
@@ -201,26 +212,6 @@ body {
     color: black;
 }
 
-.port-text-1 {
-    margin-left: 10px;
-    margin-right: 2px;
-    padding-left: 45px;
-    padding-top: 20px;
-}
-
-.port-text-2 {
-    margin-left: 18px;
-    margin-right: 18px;
-    padding-left: 45px;
-    padding-top: 20px;
-}
-
-.port-text-3 {
-    margin-left: 2px;
-    margin-right: 11px;
-    padding-left: 45px;
-    padding-top: 20px;    
-}
 
 .port-pad {
     padding-bottom: 30px;
@@ -316,7 +307,6 @@ body {
 }
 
 .footer-3 {
-    border-color: #616161!important;
 }
 .footer-3 p{
     color: white;
@@ -324,6 +314,10 @@ body {
     padding-top: 50px;
     font-size: 20px;
     font-weight: 500;
+}
+
+.footer-b {
+    border-color: #616161!important;
 }
 
 .footer-logo {
@@ -336,4 +330,21 @@ body {
     color: #616161;
     font-size: 15px;
     padding-top: 40px;
+}
+
+
+@media (max-width: 960px) {
+    .sidebar {
+        display:none;
+    }
+    .port-text {
+
+    }
+    
+}
+
+@media (max-width: 1079px) {
+    .undertext-1 {
+    font-size: 12px;
+    }   
 }
