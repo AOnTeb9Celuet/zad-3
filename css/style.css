@@ -5,9 +5,8 @@ body {
 .sidebar {
     position: fixed;
     height: 100vh;
-}
-.bg {
     background-image: url(../img/forest.jpg);
+    background-size: cover;
     padding:0;
 }
 
