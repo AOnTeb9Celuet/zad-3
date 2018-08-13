@@ -336,6 +336,18 @@ body {
     .sidebar {
         display:none;
     }
+    .img-po {
+        width: 30%;
+        height: auto;
+        min-height: 100px;
+        max-height: 300px;
+    }
+    .port-text {
+        float: right;
+        width: 70%;
+        max-height: 100px;
+    }
+    
 }
 
 @media (max-width: 991px) {
@@ -354,8 +366,8 @@ body {
     .sidebar {
         display:block;
     }
-   
 }
+
 
 @media (max-width: 1079px) {
     .undertext-1 {
